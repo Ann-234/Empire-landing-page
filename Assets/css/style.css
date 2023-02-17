@@ -1,0 +1,164 @@
+
+
+.btn{
+  border: radius 0 !important;
+}
+.card{
+  border-radius: 0 !important;
+}
+
+
+/* topnav */
+#topnav a{
+  color: #fff;
+}
+
+#topnav .social-icons i{
+ display: inline-block;
+ margin-right: 2rem;
+
+}
+
+/* navbar */
+.navbar{
+  background: #fff !important;
+}
+.navbar a{
+  color:black;
+}
+.navbar-brand img{
+  width: 30%;
+  border-radius: 70%;
+  height: 80px;
+  width: 80px;
+}
+.navbar-toggler{
+  outline: black !important
+ 
+}
+.navbar .btn{
+  border-radius: 0 !important;
+}
+
+
+/* slider */
+#slider .carousel-inner img{
+  height: 70vh;
+}
+.carousel-inner  .carousel-caption{
+  bottom: 100px;
+  padding-right: 350px;
+}
+.carousel-caption h2{
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.carousel-inner .carousel-caption button{
+  background: black;
+  color: white;
+  padding: .5rem 2rem;
+ 
+}
+
+/* about */
+/* about */
+#about .right-item button .btn{
+  border-radius:0 !important;
+}
+
+/* section */
+#about button{
+ padding: 2rem 2rem;
+}
+
+
+
+/* research */
+
+#research .customer ul{
+  list-style: none;
+  padding-left: 0;
+}
+#research .customer ul li::before{
+ font-family:'bootstrap-icons' ;
+ content:'\F247' ;
+
+}
+
+
+
+/* satisfied */
+#satisfied .container-fluid h2{
+  text-align: center;
+  padding-bottom: 3rem;
+ 
+}
+#satisfied .container-fluid h2 span{
+  color: red;
+}
+#satisfied .container-fluid p {
+ text-align: left;
+ padding-bottom: 5rem;
+ 
+}
+#satisfied{
+  background: url(/Assets/img/bakground.jpg);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: 70% 50%;
+}
+/* slider2 */
+
+#slider2 .carousel-inner .carousel-item img{
+  height: 60vh;
+ 
+}
+#slider2 .carousel-inner .carousel-item h2 span{
+  color: red;
+}
+#slider2 .carousel-caption img .rounded-circle{
+  width: 30%;
+ 
+}
+
+/* footer */
+#footer .container i{
+  font-size: 2rem;
+  padding-bottom: 10rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width:520px){
+
+  /* slider */
+  #slider .carousel-inner img{
+    height: 40vh;
+  }
+  .carousel-inner  .carousel-caption{
+    padding-right: 10px;
+    top: 0.2rem;
+    
+  }
+
+  .carousel-caption h2{
+    font-size: .9rem;
+    text-transform: capitalize;
+  }
+  
+  
+
+  /* satisfied */
+  #satisfied{
+    height: 70vh;
+  }
+  
+  
+  
+
+}
